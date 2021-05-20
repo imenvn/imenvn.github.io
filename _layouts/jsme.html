@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>{{ page.title }}</title>
+<link rel="stylesheet" href="/assets/css/styles.css">
+<link rel="stylesheet" type="text/css" href="assets/css/default.css">
+<script src="https://chemapps.stolaf.edu/jmol/jsmol/JSmol.min.js" type="text/javascript"></script>
+<script src="https://chemapps.stolaf.edu/jmol/jsmol/js/JSmolJME.js" type="text/javascript">/* adds to the standard JSmol library a function to load smiles */</script>
+<script src="https://chemapps.stolaf.edu/jmol/jsmol/jsme/jsme/jsme.nocache.js" type="text/javascript"></script>
+<script type="text/javascript" src="assets/js/jsme.js"></script>
+<style type="text/css">
+.small { font-size: 0.8em; }
+#JmolOuterDiv { width:calc( 100% - 1.2em ); border:1px dotted gray; border-radius:0.6em; padding:0.6em; min-height:90vmin; }
+#JmeDiv { width:90vmin; height:90vmin; float:left; margin-right:0.6em; }
+#JmolActions textarea { width:46em; max-width:calc(100% - 1.2em - 90vmin); height:9em; vertical-align:top; }
+</style>
+</head>
+<body>
+	{% include navigation.html %}
+    {{ content }}
+
+<div id="JmolOuterDiv">
+	<div id="JmeDiv" style="width:90vmin; height:90vmin; float:left; margin-right:0.6em;">
+		<script type="text/javascript">
+		Jmol.getJMEApplet(myJme, JmolInfo);
+		</script>
+	</div>
+
+	<div id="JmolActions">
+	    <h2>JavaScript Molecule Editor (JSME)</h2>
+			<p>You may draw a structure on the left panel, using the toolbars and the mouse, or edit the existing one.
+			Right-click for export choices.
+			</p>
+			<p>Display
+			<a href="javascript:void(0)" onClick="Jmol.jmeReadMolecule(myJme, '6 6 C 22.94 -14.03 C 22.94 -12.63 C 21.73 -11.93 C 20.52 -12.63 C 20.52 -14.03 C 21.73 -14.73 1 2 1 2 3 2 3 4 1 4 5 2 5 6 1 6 1 2')">benzene</a> 
+			<span class="small">(JME)</span>
+			<!--a href="javascript:void(0)" onClick="Jmol.jmeReadMolecule(myJme, '7 6 O- 12.28 -15.57 C 13.94 -16.52 C 15.15 -15.82 C 16.36 -16.52 S 17.57 -15.82 O 14.30 -17.87 N+ 15.15 -14.42 1 2 1 2 3 1 3 4 1 4 5 1 2 6 2 3 7 1')">cysteine</a-->
+			<a href="javascript:void(0)" onClick="Jmol.jmeReadMolecule(myJme, '7 6 O- 8.82 -9.51 C 10.38 -10.41 C 11.52 -9.75 C 12.67 -10.41 S 13.81 -9.75 O 10.72 -11.68 N+ 11.52 -8.42 1 2 1 2 3 1 3 4 1 4 5 1 2 6 2 3 7 -1')"><span class="versal">l</span>-cysteine</a>
+			<span class="small">(JME)</span>
+			<a href="javascript:void(0)" onClick="Jmol.jmeReadSmiles(myJme, 'CC(CCO)C')">isopentanol</a>
+			<span class="small">(SMILES)</span>
+			<a href="javascript:void(0)" onClick="Jmol.jmeReadMolecule(myJme, caffeine_moldata)">caffeine</a>
+			<span class="small">(MOL)</span>
+			</p>
+			<p>Get information of the currently drawn structure:
+			<br><input type="button" onClick="$('#theJme').val( Jmol.jmeGetFile(myJme,true) );" value="get the JME string">
+			<input type="text" id="theJme" style="width:30em;">
+			<br><input type="button" onClick="$('#theSmiles').val( Jmol.jmeSmiles(myJme) );" value="get the SMILES">
+			<input type="text" id="theSmiles" style="width:30em;">
+			<br><input type="button" onClick="$('#theMol').val( Jmol.jmeGetFile(myJme) );" value="get the MOL data">
+			<textarea id="theMol"></textarea>
+			</p>
+
+		<div style="font-family:Arial, Helvetica, sans-serif; font-size:0.85em; color:gray;">B. Bienfait and P. Ertl, JSME: a free molecule editor in JavaScript, <em>J.&nbsp;Cheminformatics</em> <strong>5</strong>:24 (2013)
+		</div>
+	</div>
+</div>
+
+  </body>
+</html>
