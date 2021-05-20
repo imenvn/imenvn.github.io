@@ -18,7 +18,6 @@ Jmol._isAsync = false;
         Jmol._debugCode = (s.indexOf("debugcode") >= 0);
 
         jmol_isReady = function (applet) {
-            document.title = (applet._id + " - Jmol " + Jmol.___JmolVersion)
             Jmol._getElement(applet, "appletdiv").style.border = "1px solid blue"
         }
 
@@ -30,16 +29,16 @@ Jmol._isAsync = false;
             addSelectionOptions: true,
             use: "HTML5",   // JAVA HTML5 WEBGL are all options
             j2sPath: "https://chemapps.stolaf.edu/jmol/jsmol/j2s", // this needs to point to where the j2s directory is.
-            jarPath: "https://chemapps.stolaf.edu/jmol/jsmol/j2s/java",// this needs to point to where the java directory is.
-            jarFile: "JmolAppletSigned.jar",
-            isSigned: true,
+            // jarPath: "https://chemapps.stolaf.edu/jmol/jsmol/j2s/java",// this needs to point to where the java directory is.
+            // jarFile: "JmolAppletSigned.jar",
+            // isSigned: true,
             script: "set zoomlarge false;set antialiasDisplay;load assets/chemicals/236.mol",
             serverURL: "https://chemapps.stolaf.edu/jmol/jsmol/php/jsmol.php",
             readyFunction: jmol_isReady,
             disableJ2SLoadMonitor: true,
             disableInitialConsole: true,
             allowJavaScript: true
-            //defaultModel: "$dopamine",
+            // defaultModel: "$dopamine",
             //console: "none", // default will be jmolApplet0_infodiv, but you can designate another div here or "none"
         }
 
