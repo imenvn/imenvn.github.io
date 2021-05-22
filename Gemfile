@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 gem "jekyll-remote-theme"
-gem "beautiful-jekyll-theme", "~> 5.0.0"
+# gem "beautiful-jekyll-theme", "~> 5.0.0"
 
 # gem "rails"
 # gem "jekyll"
