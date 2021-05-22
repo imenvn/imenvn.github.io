@@ -1,12 +1,10 @@
-- name: Home
-  link: /
-- name: About
-  link: /about.html
-- name: Blog
-  link: /blog.html
-# - name: Staff
-#   link: /staff.html
-- name: Chemistry
-  link: /chemistry.html
-- name: Alchemy
-  link: /alchemy
+Home: "index"
+About Me: "aboutme"
+Blog: "blog"
+Chemical Compounds:
+  - Home: "chemicals/home"
+  - Compounds:  "chemicals/compound"
+  - Benzene: "chemicals/Benzene"
+  - Phenol: "chemicals/Phenol"
+  - LiAlH4: "chemicals/LiAlH4"
+Alchemy: "alchemy"

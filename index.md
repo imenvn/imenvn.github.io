@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Naveen Jhajhoriya's site
 ---
 # Welcome to my Site

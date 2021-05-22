@@ -1,0 +1,41 @@
+.container-fluid {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.chemical-container {
+    background: white;
+    color: black;
+    height: fit-content;
+    /* flex: 50%; */;
+    width: fit-content;
+    float: left;
+    padding: 10px;
+}
+.details-container {
+    background: white;
+    color: blue;
+    // margin-left: 40%;
+    text-align: justify;
+    // float: right;
+
+}
+.small { font-size: 0.8em; }
+				#JmolOuterDiv { 
+					width:calc( 100% - 1.2em ); 
+					border:1px dotted gray; 
+					border-radius:0.6em; 
+					padding:0.6em; 
+					min-height:90vmin; 
+				}
+				#JmeDiv { 
+					width:90vmin;
+					height:90vmin; 
+					float:left; 
+					margin-right:0.6em; 
+					}
+				#JmolActions textarea { 
+					width:46em; 
+					max-width:calc(100% - 1.2em - 90vmin); 
+					height:9em; 
+					vertical-align:top; 
+					}

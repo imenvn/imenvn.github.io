@@ -1,23 +1,8 @@
-<!DOCTYPE html>
-<html>
+---
+layout: post
+---
 
-<head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jsmol/JSmol.min.js"></script>
-
-    <script type="text/javascript" src="assets/js/jmol.js"></script>
-    <!-- <script type="text/javascript" src="http://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&inline"> -->
-</script>
-</head>
-
-<body>
-    {% include navigation.html %}
-    {{ content }}
-    <table width=1000 cellpadding=10>
-        <tr>
-            <td valign="top">
+            <div class="chemical-container">
                 <div id="appdiv"></div>
                 <br>
                 <a href="javascript:Jmol.loadFileFromDialog(jmolApplet0)">open...</a>
@@ -75,18 +60,20 @@
                 <a
                     href="javascript:Jmol.script(jmolApplet0,'if (!fsize){fsize=20};fsize -= 4;if (fsize < 10){fsize = 10};font echo @fsize serif')">smaller</a>
 
-            </td>
-            <td valign=top>
-                <b>Try various buttons. If anything doesn't work please <a href=mailto:hansonr@stolaf.edu>let me
-                        know</a>.</b>
-                <br><br>
-
+                <br>Try various buttons. If anything doesn't work please <a href=mailto:hansonr@stolaf.edu>let me
+                        know</a>.
+                <br>
+                <br>
+                <br>
                 <span style="font-size:8pt">
                     Enter "!" and a command into the search box and press ENTER or open the <a
                         href="javascript:Jmol.script(jmolApplet0,'console')">applet console</a> to execute a <a
                         target=_blank href=https://chemapps.stolaf.edu/jmol/docs>script command</a>.
                 </span>
                 <br><br>
+            </div>
+            <div class="details-container">
+                {{ content }}
                 <!-- <table cellpadding=5>
                     <tr>
                         <td valign=top>
@@ -294,9 +281,4 @@
                         </td>
                     </tr>
                 </table> -->
-            </td>
-        </tr>
-    </table>
-</body>
-
-</html>
+            </div>

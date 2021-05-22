@@ -25,14 +25,14 @@ Jmol._isAsync = false;
             width: 420,
             height: 300,
             debug: false,
-            color: "0xFFFFFF",
+            color: "0x000000",
             addSelectionOptions: true,
             use: "HTML5",   // JAVA HTML5 WEBGL are all options
             j2sPath: "https://chemapps.stolaf.edu/jmol/jsmol/j2s", // this needs to point to where the j2s directory is.
             // jarPath: "https://chemapps.stolaf.edu/jmol/jsmol/j2s/java",// this needs to point to where the java directory is.
             // jarFile: "JmolAppletSigned.jar",
             // isSigned: true,
-            script: "set zoomlarge false;set antialiasDisplay;load assets/chemicals/236.mol",
+            script: "set zoomlarge false;set antialiasDisplay;load ../../assets/chemicals/236.mol",
             serverURL: "https://chemapps.stolaf.edu/jmol/jsmol/php/jsmol.php",
             readyFunction: jmol_isReady,
             disableJ2SLoadMonitor: true,
