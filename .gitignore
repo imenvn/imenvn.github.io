@@ -4,3 +4,6 @@ _layout/chemtube3d.html
 _layout/chemistry-original.html
 _layout/default1.html
 .jekyll-cache
+_config1.yml
+_includes/head1.html
+_layouts/default1.html
