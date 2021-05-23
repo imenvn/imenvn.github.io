@@ -1,0 +1,15 @@
+---
+layout: chemistry
+title: Chemicals
+---
+<h1>Chemicals</h1>
+
+<ul>
+  {% for chemical in site.chemicals %}
+    <li>
+        <h2><a href="{{ chemical.url }}">{{ chemical.name }}</a></h2>
+      <h3>{{ chemical.formula }}</h3>
+      <p>{{ chemical.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>

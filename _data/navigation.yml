@@ -8,3 +8,5 @@ Chemical Compounds:
   - Phenol: "chemicals/phenol"
   - LiAlH4: "chemicals/LiAlH4"
 Alchemy: "alchemy"
+Chemicals: "compounds"
+Staff: "staff"
