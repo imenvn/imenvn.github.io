@@ -34,6 +34,8 @@ a {
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
+  padding-top: 10px;
+  padding-left: 100px;
 
   em {
     margin-left: 10px;
@@ -42,9 +44,9 @@ a {
 }
 .theme-switch {
   display: inline-block;
-  height: 34px;
+  height: 25.5px;
   position: relative;
-  width: 60px;
+  width: 45px;
 }
 
 .theme-switch input {
@@ -81,8 +83,8 @@ a {
 .slider:before {
   position: absolute;
   content: "";
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   left: 0px;
   bottom: 4px;
   top: 0;
@@ -91,7 +93,7 @@ a {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   box-shadow: 0 0px 15px #2020203d;
-  background: white url('https://i.ibb.co/FxzBYR9/night.png');
+  background: rgb(50, 50, 50) url('https://i.ibb.co/FxzBYR9/night.png');
   background-repeat: no-repeat;
   background-position: center;
 }

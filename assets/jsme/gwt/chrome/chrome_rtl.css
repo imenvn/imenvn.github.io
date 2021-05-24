@@ -52,7 +52,7 @@ a, a:visited, a:hover {
   font-size: small;
   cursor: pointer;
   cursor: hand;
-  background: url("images/hborder.png") repeat-x 0px -27px;
+  background: url("img/hborder.png") repeat-x 0px -27px;
   border: 1px outset #ccc;
 }
 .gwt-Button:active {
@@ -79,11 +79,11 @@ a, a:visited, a:hover {
 }
 .gwt-DecoratorPanel .topCenter,
 .gwt-DecoratorPanel .bottomCenter {
-  background: url(images/hborder.png) repeat-x;
+  background: url(img/hborder.png) repeat-x;
 }
 .gwt-DecoratorPanel .middleLeft,
 .gwt-DecoratorPanel .middleRight {
-  background: url(images/vborder.png) repeat-y;
+  background: url(img/vborder.png) repeat-y;
 }
 .gwt-DecoratorPanel .topLeftInner,
 .gwt-DecoratorPanel .topRightInner,
@@ -94,20 +94,20 @@ a, a:visited, a:hover {
   zoom: 1;
 }
 .gwt-DecoratorPanel .topLeft {
-  background: url(images/corner.png) no-repeat 0px 0px;
-  -background: url(images/corner_ie6.png) no-repeat 0px 0px;
+  background: url(img/corner.png) no-repeat 0px 0px;
+  -background: url(img/corner_ie6.png) no-repeat 0px 0px;
 }
 .gwt-DecoratorPanel .topRight {
-  background: url(images/corner.png) no-repeat -5px 0px;
-  -background: url(images/corner_ie6.png) no-repeat -5px 0px;
+  background: url(img/corner.png) no-repeat -5px 0px;
+  -background: url(img/corner_ie6.png) no-repeat -5px 0px;
 }
 .gwt-DecoratorPanel .bottomLeft {
-  background: url(images/corner.png) no-repeat 0px -5px;
-  -background: url(images/corner_ie6.png) no-repeat 0px -5px;
+  background: url(img/corner.png) no-repeat 0px -5px;
+  -background: url(img/corner_ie6.png) no-repeat 0px -5px;
 }
 .gwt-DecoratorPanel .bottomRight {
-  background: url(images/corner.png) no-repeat -5px -5px;
-  -background: url(images/corner_ie6.png) no-repeat -5px -5px;
+  background: url(img/corner.png) no-repeat -5px -5px;
+  -background: url(img/corner_ie6.png) no-repeat -5px -5px;
 }
 * html .gwt-DecoratorPanel .topLeftInner,
 * html .gwt-DecoratorPanel .topRightInner,
@@ -119,7 +119,7 @@ a, a:visited, a:hover {
 }
 
 .gwt-DialogBox .Caption {
-  background: #ebebeb url(images/hborder.png) repeat-x 0px -2003px;
+  background: #ebebeb url(img/hborder.png) repeat-x 0px -2003px;
   padding: 4px 8px 4px 4px;
   cursor: default;
   border-bottom: 1px solid #bbbbbb;
@@ -132,15 +132,15 @@ a, a:visited, a:hover {
   background: white;
 }
 .gwt-DialogBox .dialogBottomCenter {
-  background: url(images/hborder.png) repeat-x 0px -4px;
-  -background: url(images/hborder_ie6.png) repeat-x 0px -4px;
+  background: url(img/hborder.png) repeat-x 0px -4px;
+  -background: url(img/hborder_ie6.png) repeat-x 0px -4px;
 }
 .gwt-DialogBox .dialogMiddleLeft {
-  background: url(images/vborder.png) repeat-y;
+  background: url(img/vborder.png) repeat-y;
 }
 .gwt-DialogBox .dialogMiddleRight {
-  background: url(images/vborder.png) repeat-y -4px 0px;
-  -background: url(images/vborder_ie6.png) repeat-y -4px 0px;
+  background: url(img/vborder.png) repeat-y -4px 0px;
+  -background: url(img/vborder_ie6.png) repeat-y -4px 0px;
 }
 .gwt-DialogBox .dialogTopLeftInner {
   width: 5px;
@@ -161,20 +161,20 @@ a, a:visited, a:hover {
   zoom: 1;
 }
 .gwt-DialogBox .dialogTopLeft {
-  background: url(images/corner.png) no-repeat -13px 0px;
-  -background: url(images/corner_ie6.png) no-repeat -13px 0px;
+  background: url(img/corner.png) no-repeat -13px 0px;
+  -background: url(img/corner_ie6.png) no-repeat -13px 0px;
 }
 .gwt-DialogBox .dialogTopRight {
-  background: url(images/corner.png) no-repeat -18px 0px;
-  -background: url(images/corner_ie6.png) no-repeat -18px 0px;
+  background: url(img/corner.png) no-repeat -18px 0px;
+  -background: url(img/corner_ie6.png) no-repeat -18px 0px;
 }
 .gwt-DialogBox .dialogBottomLeft {
-  background: url(images/corner.png) no-repeat 0px -15px;
-  -background: url(images/corner_ie6.png) no-repeat 0px -15px;
+  background: url(img/corner.png) no-repeat 0px -15px;
+  -background: url(img/corner_ie6.png) no-repeat 0px -15px;
 }
 .gwt-DialogBox .dialogBottomRight {
-  background: url(images/corner.png) no-repeat -5px -15px;
-  -background: url(images/corner_ie6.png) no-repeat -5px -15px;
+  background: url(img/corner.png) no-repeat -5px -15px;
+  -background: url(img/corner_ie6.png) no-repeat -5px -15px;
 }
 * html .gwt-DialogBox .dialogTopLeftInner {
   width: 5px;
@@ -230,7 +230,7 @@ a, a:visited, a:hover {
 .gwt-HorizontalSplitPanel .hsplitter {
   cursor: move;
   border: 0px; 
-  background: #91c0ef url(images/vborder.png) repeat-y;
+  background: #91c0ef url(img/vborder.png) repeat-y;
   line-height: 0px;
 }
 .gwt-VerticalSplitPanel {
@@ -238,7 +238,7 @@ a, a:visited, a:hover {
 .gwt-VerticalSplitPanel .vsplitter {
   cursor: move;
   border: 0px; 
-  background: #91c0ef url(images/hborder.png) repeat-x;
+  background: #91c0ef url(img/hborder.png) repeat-x;
   line-height: 0px;
 }
 
@@ -271,7 +271,7 @@ a, a:visited, a:hover {
   color: #cdcdcd;
 }
 .gwt-MenuBar-horizontal {
-  background: #ebebeb url(images/hborder.png) repeat-x 0px -2003px;
+  background: #ebebeb url(img/hborder.png) repeat-x 0px -2003px;
   border: 1px solid #BBBBBB;
 }
 .gwt-MenuBar-horizontal .gwt-MenuItem {
@@ -325,19 +325,19 @@ a, a:visited, a:hover {
   margin: 0px 3px 0px 0px;
 }
 .gwt-MenuBarPopup .menuPopupTopCenter {
-  background: url(images/hborder.png) 0px -12px repeat-x;
+  background: url(img/hborder.png) 0px -12px repeat-x;
 }
 .gwt-MenuBarPopup .menuPopupBottomCenter {
-  background: url(images/hborder.png) 0px -13px repeat-x;
-  -background: url(images/hborder_ie6.png) 0px -13px repeat-x;
+  background: url(img/hborder.png) 0px -13px repeat-x;
+  -background: url(img/hborder_ie6.png) 0px -13px repeat-x;
 }
 .gwt-MenuBarPopup .menuPopupMiddleLeft {
-  background: url(images/vborder.png) -12px 0px repeat-y;
-  -background: url(images/vborder_ie6.png) -12px 0px repeat-y;
+  background: url(img/vborder.png) -12px 0px repeat-y;
+  -background: url(img/vborder_ie6.png) -12px 0px repeat-y;
 }
 .gwt-MenuBarPopup .menuPopupMiddleRight {
-  background: url(images/vborder.png) -13px 0px repeat-y;
-  -background: url(images/vborder_ie6.png) -13px 0px repeat-y;
+  background: url(img/vborder.png) -13px 0px repeat-y;
+  -background: url(img/vborder_ie6.png) -13px 0px repeat-y;
 }
 .gwt-MenuBarPopup .menuPopupTopLeftInner {
   width: 5px;
@@ -360,20 +360,20 @@ a, a:visited, a:hover {
   zoom: 1;
 }
 .gwt-MenuBarPopup .menuPopupTopLeft {
-  background: url(images/corner.png) no-repeat 0px -36px;
-  -background: url(images/corner_ie6.png) no-repeat 0px -36px;
+  background: url(img/corner.png) no-repeat 0px -36px;
+  -background: url(img/corner_ie6.png) no-repeat 0px -36px;
 }
 .gwt-MenuBarPopup .menuPopupTopRight {
-  background: url(images/corner.png) no-repeat -5px -36px;
-  -background: url(images/corner_ie6.png) no-repeat -5px -36px;
+  background: url(img/corner.png) no-repeat -5px -36px;
+  -background: url(img/corner_ie6.png) no-repeat -5px -36px;
 }
 .gwt-MenuBarPopup .menuPopupBottomLeft {
-  background: url(images/corner.png) no-repeat 0px -41px;
-  -background: url(images/corner_ie6.png) no-repeat 0px -41px;
+  background: url(img/corner.png) no-repeat 0px -41px;
+  -background: url(img/corner_ie6.png) no-repeat 0px -41px;
 }
 .gwt-MenuBarPopup .menuPopupBottomRight {
-  background: url(images/corner.png) no-repeat -5px -41px;
-  -background: url(images/corner_ie6.png) no-repeat -5px -41px;
+  background: url(img/corner.png) no-repeat -5px -41px;
+  -background: url(img/corner_ie6.png) no-repeat -5px -41px;
 }
 * html .gwt-MenuBarPopup .menuPopupTopLeftInner {
   width: 5px;
@@ -416,18 +416,18 @@ a, a:visited, a:hover {
   background: #e3e3e3;
 }
 .gwt-DecoratedPopupPanel .popupTopCenter {
-  background: url(images/hborder.png) repeat-x;
+  background: url(img/hborder.png) repeat-x;
 }
 .gwt-DecoratedPopupPanel .popupBottomCenter {
-  background: url(images/hborder.png) repeat-x 0px -4px;
-  -background: url(images/hborder_ie6.png) repeat-x 0px -4px;
+  background: url(img/hborder.png) repeat-x 0px -4px;
+  -background: url(img/hborder_ie6.png) repeat-x 0px -4px;
 }
 .gwt-DecoratedPopupPanel .popupMiddleLeft {
-  background: url(images/vborder.png) repeat-y;
+  background: url(img/vborder.png) repeat-y;
 }
 .gwt-DecoratedPopupPanel .popupMiddleRight {
-  background: url(images/vborder.png) repeat-y -4px 0px;
-  -background: url(images/vborder_ie6.png) repeat-y -4px 0px;
+  background: url(img/vborder.png) repeat-y -4px 0px;
+  -background: url(img/vborder_ie6.png) repeat-y -4px 0px;
 }
 .gwt-DecoratedPopupPanel .popupTopLeftInner {
   width: 5px;
@@ -450,20 +450,20 @@ a, a:visited, a:hover {
   zoom: 1;
 }
 .gwt-DecoratedPopupPanel .popupTopLeft {
-  background: url(images/corner.png) no-repeat 0px -10px;
-  -background: url(images/corner_ie6.png) no-repeat 0px -10px;
+  background: url(img/corner.png) no-repeat 0px -10px;
+  -background: url(img/corner_ie6.png) no-repeat 0px -10px;
 }
 .gwt-DecoratedPopupPanel .popupTopRight {
-  background: url(images/corner.png) no-repeat -5px -10px;
-  -background: url(images/corner_ie6.png) no-repeat -5px -10px;
+  background: url(img/corner.png) no-repeat -5px -10px;
+  -background: url(img/corner_ie6.png) no-repeat -5px -10px;
 }
 .gwt-DecoratedPopupPanel .popupBottomLeft {
-  background: url(images/corner.png) no-repeat 0px -15px;
-  -background: url(images/corner_ie6.png) no-repeat 0px -15px;
+  background: url(img/corner.png) no-repeat 0px -15px;
+  -background: url(img/corner_ie6.png) no-repeat 0px -15px;
 }
 .gwt-DecoratedPopupPanel .popupBottomRight {
-  background: url(images/corner.png) no-repeat -5px -15px;
-  -background: url(images/corner_ie6.png) no-repeat -5px -15px;
+  background: url(img/corner.png) no-repeat -5px -15px;
+  -background: url(img/corner_ie6.png) no-repeat -5px -15px;
 }
 * html .gwt-DecoratedPopupPanel .popupTopLeftInner {
   width: 5px;
@@ -500,7 +500,7 @@ a, a:visited, a:hover {
 .gwt-PushButton-down-disabled {
   margin: 0;
   text-decoration: none;
-  background: url("images/hborder.png") repeat-x 0px -27px;
+  background: url("img/hborder.png") repeat-x 0px -27px;
 }
 .gwt-PushButton-up,
 .gwt-PushButton-up-hovering,
@@ -561,7 +561,7 @@ a, a:visited, a:hover {
   border: 0px;
 }
 .gwt-RichTextToolbar {
-  background: #ebebeb url(images/hborder.png) repeat-x 0px -2003px;
+  background: #ebebeb url(img/hborder.png) repeat-x 0px -2003px;
   border-bottom: 1px solid #BBBBBB;
   padding: 3px;
   margin: 0px;
@@ -626,7 +626,7 @@ a, a:visited, a:hover {
   padding: 3px;
   border: 1px solid #bbbbbb;
   border-bottom: 0px;
-  background: #d3def6 url(images/hborder.png) repeat-x 0px -989px;
+  background: #d3def6 url(img/hborder.png) repeat-x 0px -989px;
 }
 .gwt-StackPanel .gwt-StackPanelContent {
   border: 1px solid #bbbbbb;
@@ -656,13 +656,13 @@ a, a:visited, a:hover {
 }
 .gwt-DecoratedStackPanel .stackItemTopLeft {
   border-left: 1px solid #bbbbbb;
-  background: #e4e4e4 url(images/corner.png) no-repeat 0px -49px;
-  -background: #e4e4e4 url(images/corner_ie6.png) no-repeat 0px -49px;
+  background: #e4e4e4 url(img/corner.png) no-repeat 0px -49px;
+  -background: #e4e4e4 url(img/corner_ie6.png) no-repeat 0px -49px;
 }
 .gwt-DecoratedStackPanel .stackItemTopRight {
   border-right: 1px solid #bbbbbb;
-  background: #e4e4e4 url(images/corner.png) no-repeat -6px -49px;
-  -background: #e4e4e4 url(images/corner_ie6.png) no-repeat -6px -49px;
+  background: #e4e4e4 url(img/corner.png) no-repeat -6px -49px;
+  -background: #e4e4e4 url(img/corner_ie6.png) no-repeat -6px -49px;
 }
 .gwt-DecoratedStackPanel .stackItemTopLeftInner,
 .gwt-DecoratedStackPanel .stackItemTopRightInner {
@@ -676,10 +676,10 @@ a, a:visited, a:hover {
   overflow: hidden;
 }
 .gwt-DecoratedStackPanel .stackItemTopCenter {
-  background: url(images/hborder.png) 0px -21px repeat-x;
+  background: url(img/hborder.png) 0px -21px repeat-x;
 }
 .gwt-DecoratedStackPanel .stackItemMiddleLeft {
-  background: #d3def6 url(images/hborder.png) repeat-x 0px -989px;
+  background: #d3def6 url(img/hborder.png) repeat-x 0px -989px;
   border-left: 1px solid #bbbbbb;
 }
 .gwt-DecoratedStackPanel .stackItemMiddleLeftInner,
@@ -688,13 +688,13 @@ a, a:visited, a:hover {
   height: 1px;
 }
 .gwt-DecoratedStackPanel .stackItemMiddleRight {
-  background: #d3def6 url(images/hborder.png) repeat-x 0px -989px;
+  background: #d3def6 url(img/hborder.png) repeat-x 0px -989px;
   border-right: 1px solid #bbbbbb;
 }
 .gwt-DecoratedStackPanel .stackItemMiddleCenter {
   font-weight: bold;
   font-size: 1.3em;
-  background: #d3def6 url(images/hborder.png) repeat-x 0px -989px;
+  background: #d3def6 url(img/hborder.png) repeat-x 0px -989px;
 }
 .gwt-DecoratedStackPanel .gwt-StackPanelItem-first .stackItemTopRight,
 .gwt-DecoratedStackPanel .gwt-StackPanelItem-first .stackItemTopLeft {
@@ -724,18 +724,18 @@ a, a:visited, a:hover {
   background: white;
 }
 .gwt-SuggestBoxPopup .suggestPopupTopCenter {
-  background: url(images/hborder.png) repeat-x;
+  background: url(img/hborder.png) repeat-x;
 }
 .gwt-SuggestBoxPopup .suggestPopupBottomCenter {
-  background: url(images/hborder.png) repeat-x 0px -4px;
-  -background: url(images/hborder_ie6.png) repeat-x 0px -4px;
+  background: url(img/hborder.png) repeat-x 0px -4px;
+  -background: url(img/hborder_ie6.png) repeat-x 0px -4px;
 }
 .gwt-SuggestBoxPopup .suggestPopupMiddleLeft {
-  background: url(images/vborder.png) repeat-y;
+  background: url(img/vborder.png) repeat-y;
 }
 .gwt-SuggestBoxPopup .suggestPopupMiddleRight {
-  background: url(images/vborder.png) repeat-y -4px 0px;
-  -background: url(images/vborder_ie6.png) repeat-y -4px 0px;
+  background: url(img/vborder.png) repeat-y -4px 0px;
+  -background: url(img/vborder_ie6.png) repeat-y -4px 0px;
 }
 .gwt-SuggestBoxPopup .suggestPopupTopLeftInner {
   width: 5px;
@@ -758,20 +758,20 @@ a, a:visited, a:hover {
   zoom: 1;
 }
 .gwt-SuggestBoxPopup .suggestPopupTopLeft {
-  background: url(images/corner.png) no-repeat 0px -23px;
-  -background: url(images/corner_ie6.png) no-repeat 0px -23px;
+  background: url(img/corner.png) no-repeat 0px -23px;
+  -background: url(img/corner_ie6.png) no-repeat 0px -23px;
 }
 .gwt-SuggestBoxPopup .suggestPopupTopRight {
-  background: url(images/corner.png) no-repeat -5px -23px;
-  -background: url(images/corner_ie6.png) no-repeat -5px -23px;
+  background: url(img/corner.png) no-repeat -5px -23px;
+  -background: url(img/corner_ie6.png) no-repeat -5px -23px;
 }
 .gwt-SuggestBoxPopup .suggestPopupBottomLeft {
-  background: url(images/corner.png) no-repeat 0px -28px;
-  -background: url(images/corner_ie6.png) no-repeat 0px -28px;
+  background: url(img/corner.png) no-repeat 0px -28px;
+  -background: url(img/corner_ie6.png) no-repeat 0px -28px;
 }
 .gwt-SuggestBoxPopup .suggestPopupBottomRight {
-  background: url(images/corner.png) no-repeat -5px -28px;
-  -background: url(images/corner_ie6.png) no-repeat -5px -28px;
+  background: url(img/corner.png) no-repeat -5px -28px;
+  -background: url(img/corner_ie6.png) no-repeat -5px -28px;
 }
 * html .gwt-SuggestBoxPopup .suggestPopupTopLeftInner {
   width: 5px;
@@ -855,12 +855,12 @@ a, a:visited, a:hover {
   height: 6px;
 }
 .gwt-DecoratedTabBar .tabTopLeft {
-  background: url(images/corner.png) no-repeat 0px -55px;
-  -background: url(images/corner_ie6.png) no-repeat 0px -55px;
+  background: url(img/corner.png) no-repeat 0px -55px;
+  -background: url(img/corner_ie6.png) no-repeat 0px -55px;
 }
 .gwt-DecoratedTabBar .tabTopRight {
-  background: url(images/corner.png) no-repeat -6px -55px;
-  -background: url(images/corner_ie6.png) no-repeat -6px -55px;
+  background: url(img/corner.png) no-repeat -6px -55px;
+  -background: url(img/corner_ie6.png) no-repeat -6px -55px;
 }
 * html .gwt-DecoratedTabBar .tabTopLeftInner,
 * html .gwt-DecoratedTabBar .tabTopRightInner {
@@ -872,7 +872,7 @@ a, a:visited, a:hover {
 .gwt-DecoratedTabBar .tabMiddleRight {
   width: 6px;
   padding: 0px;
-  background: #e3e3e3 url(images/hborder.png) repeat-x 0px -1463px;
+  background: #e3e3e3 url(img/hborder.png) repeat-x 0px -1463px;
 }
 .gwt-DecoratedTabBar .tabMiddleLeftInner,
 .gwt-DecoratedTabBar .tabMiddleRightInner {
@@ -886,7 +886,7 @@ a, a:visited, a:hover {
   color: black;
   font-weight: bold;
   text-align: center;
-  background: #e3e3e3 url(images/hborder.png) repeat-x 0px -1463px;
+  background: #e3e3e3 url(img/hborder.png) repeat-x 0px -1463px;
 }
 .gwt-DecoratedTabBar .gwt-TabBarItem-selected .tabTopCenter {
   background: #747474;
@@ -899,11 +899,11 @@ a, a:visited, a:hover {
 }
 .gwt-DecoratedTabBar .gwt-TabBarItem-selected .tabMiddleLeft,
 .gwt-DecoratedTabBar .gwt-TabBarItem-selected .tabMiddleRight {
-  background: #bcbcbc url(images/hborder.png) repeat-x 0px -2511px;
+  background: #bcbcbc url(img/hborder.png) repeat-x 0px -2511px;
 }
 .gwt-DecoratedTabBar .gwt-TabBarItem-selected .tabMiddleCenter {
   cursor: default;
-  background: #bcbcbc url(images/hborder.png) repeat-x 0px -2511px;
+  background: #bcbcbc url(img/hborder.png) repeat-x 0px -2511px;
   color: white;
 }
 .gwt-DecoratedTabBar .gwt-TabBarItem-disabled .tabMiddleCenter {
@@ -933,7 +933,7 @@ a, a:visited, a:hover {
 .gwt-ToggleButton-down-disabled {
   margin: 0;
   text-decoration: none;
-  background: url("images/hborder.png") repeat-x 0px -27px;
+  background: url("img/hborder.png") repeat-x 0px -27px;
 }
 .gwt-ToggleButton-up,
 .gwt-ToggleButton-up-hovering,
@@ -994,7 +994,7 @@ a, a:visited, a:hover {
   zoom: 1;
 }
 .gwt-Tree .gwt-TreeItem-selected {
-  background: #93c2f1 url(images/hborder.png) repeat-x 0px -1463px;
+  background: #93c2f1 url(img/hborder.png) repeat-x 0px -1463px;
 }
 .gwt-TreeItem .gwt-RadioButton input,
 .gwt-TreeItem .gwt-CheckBox input {
@@ -1096,7 +1096,7 @@ td.datePickerMonth {
   cursor: hand;
   border: 1px solid #bbbbbb;
   border-bottom: 0px;
-  background: #d3def6 url(images/hborder.png) repeat-x 0px -989px;
+  background: #d3def6 url(img/hborder.png) repeat-x 0px -989px;
 
   font-weight: bold;
   font-size: 1.3em;
@@ -1104,7 +1104,7 @@ td.datePickerMonth {
   text-align: center;
 }
 .gwt-StackLayoutPanel .gwt-StackLayoutPanelHeader-hovering {
-  background: #d3def6 url(images/hborder.png) repeat-x 0px -1464px;
+  background: #d3def6 url(img/hborder.png) repeat-x 0px -1464px;
 }
 .gwt-StackLayoutPanel .gwt-StackLayoutPanelContent {
   border: 1px solid #bbbbbb;
@@ -1145,11 +1145,11 @@ td.datePickerMonth {
 } 
 
 .gwt-SplitLayoutPanel-HDragger {
-  background: white url(images/splitPanelThumb.png) center center no-repeat;
+  background: white url(img/splitPanelThumb.png) center center no-repeat;
   cursor: col-resize;
 }
 
 .gwt-SplitLayoutPanel-VDragger {
-  background: white url(images/splitPanelThumb.png) center center no-repeat;
+  background: white url(img/splitPanelThumb.png) center center no-repeat;
   cursor: row-resize;
 }

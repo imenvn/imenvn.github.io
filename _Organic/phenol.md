@@ -1,5 +1,6 @@
 ---
-layout: chemistry
+layout: post
+title: Phenol
 ---
 # Phenol
 From Wikipedia, the free encyclopedia

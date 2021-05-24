@@ -1,5 +1,7 @@
 ---
-layout: chemistry
+layout: post
+title: LiAlH4
+date: 2021/05/05
 ---
 # Lithium aluminium hydride
 From Wikipedia, the free encyclopedia

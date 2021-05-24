@@ -1,0 +1,15 @@
+---
+title: Organic
+Layout: home
+---
+<h1>Latest Posts</h1>
+
+<ul>
+  {% for compound in site.Organic %}
+    <li>
+      <h2>{{ compound.title }}</h2>
+      <h3>{{ compound.subject }}</h3>
+      <p>{{ compound.excerpt | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>

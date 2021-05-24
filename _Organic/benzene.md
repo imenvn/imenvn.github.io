@@ -1,5 +1,6 @@
 ---
-layout: chemistry
+layout: post
+title: Benzene
 ---
 # Benzene
 From Wikipedia, the free encyclopedia

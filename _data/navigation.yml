@@ -1,12 +1,21 @@
 Home: "index"
-About Me: "aboutme"
 Blog: "blog"
-Chemical Compounds:
-  - Home: "chemicals/home"
-  - Compounds:  "chemicals/compound"
-  - Benzene: "chemicals/benzene"
-  - Phenol: "chemicals/phenol"
-  - LiAlH4: "chemicals/LiAlH4"
+Inorganic:
+  - Home: "inorganic"
+Organic:
+  - Home: "organic"
+  - LiAlH4: "/Organic/LiAlH4"
+  - Benzene: "/Organic/benzene"
+  - Phenol: "/Organic/phenol"
+Physical:
+  - Home: "physical" 
+# Chemical Compounds:
+  # - Home: "chemicals/home"
+  # - Compounds:  "chemicals/compound"
+  # - Benzene: "chemicals/benzene"
+  # - Phenol: "chemicals/phenol"
+  # - LiAlH4: "chemicals/LiAlH4"
 Alchemy: "alchemy"
-Chemicals: "compounds"
-Staff: "staff"
+About Me: "aboutme"
+# Chemicals: "compounds"
+# Staff: "staff"

@@ -12,7 +12,7 @@ title: Nvn.
 author: Naveen Jhajhoriya
 
 # theme: beautiful-jekyll-theme
-remote_theme: daattali/beautiful-jekyll@5.0.0
+# remote_theme: daattali/beautiful-jekyll@5.0.0
 
 # --- List of links in the navigation bar --- #
 
@@ -36,7 +36,7 @@ round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
+# title-img: assets/img/logo.png
 
 #  ---------- Collections  ---------- #
 collections:
@@ -44,6 +44,15 @@ collections:
     output: true
 
   authors:
+    output: true
+  
+  Organic:
+    output: true
+
+  Inorganic:
+    output: true
+  
+  Physical:
     output: true
 
 
