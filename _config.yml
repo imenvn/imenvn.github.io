@@ -33,7 +33,8 @@ collections:
   Physical:
     output: true
 
-
+# permalinks #
+permalink: /:categories/:year/:month/:day/:title:output_ext
 
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
