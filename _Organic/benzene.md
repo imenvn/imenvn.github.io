@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Benzene
+permalink: organic/benzene
 ---
 # Benzene
 From Wikipedia, the free encyclopedia
