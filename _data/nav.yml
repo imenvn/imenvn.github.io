@@ -1,0 +1,40 @@
+- title: Home
+  href:
+- title: Blog
+  href: blog
+- title: Inorganic
+  href: inorganic
+  sub:
+    - title: Home
+      href: home
+    - title: Coordination
+      href: coordination
+      sub2:
+        - title: JTD
+          href: jtd
+        - title: CFT
+          href: cft
+- title: Organic
+  href: organic
+  sub:
+    - title: Home
+      href: home
+    - title: LiAlH4
+      href: LiAlH4
+    - title: Phenol
+      href: phenol
+    - title: Benzene
+      href: benzene
+- title: Physical
+  href: physical
+  sub:
+    - title: Home
+      href: home
+- title: Alchemy
+  href: alchemy
+- title: About Me
+  href: aboutme
+# - title:
+#   href:
+# - title:
+#   href:

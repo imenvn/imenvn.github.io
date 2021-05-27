@@ -1,127 +1,209 @@
-:root {
-  --primary-color: #302AE6;
-  --secondary-color: #536390;
-  --font-color: #424242;
-  --bg-color: #fff;
-  --heading-color: #292922;
+// :root {
+//   --primary-color: #302AE6;
+//   --secondary-color: #536390;
+//   --font-color: #424242;
+//   --bg-color: #fff;
+//   --heading-color: #292922;
+// }
+// [data-theme="dark"] {
+//   --primary-color: #9A97F3;
+//   --secondary-color: #818cab;
+//   --font-color: #e1e1ff;
+//   --bg-color: #161625;
+//   --heading-color: #818cab;
+// }
+// body {
+//   background-color: var(--bg-color);
+//   color: var(--font-color);
+
+//   /*other styles*/
+// }
+
+// h1 {
+//   color: var(--secondary-color);
+
+//   /*other styles*/
+// }
+
+// a {
+//   color: var(--primary-color);
+
+//   /*other styles*/
+// }
+// /*Simple css to style it like a toggle switch*/
+// .theme-switch-wrapper {
+//   display: flex;
+//   align-items: center;
+//   padding-top: 10px;
+//   padding-left: 100px;
+
+//   em {
+//     margin-left: 10px;
+//     font-size: 1rem;
+//   }
+// }
+// .theme-switch {
+//   display: inline-block;
+//   height: 25.5px;
+//   position: relative;
+//   width: 45px;
+// }
+
+// .theme-switch input {
+//   display:none;
+// }
+// /* The switch - the box around the slider */
+// .switch {
+//   position: relative;
+//   display: inline-block;
+//   width: 60px;
+//   height: 34px;
+// }
+
+// /* Hide default HTML checkbox */
+// .switch input {
+//   opacity: 0;
+//   width: 0;
+//   height: 0;
+// }
+
+// /* The slider */
+//  .slider {
+//   position: absolute;
+//   cursor: pointer;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   background-color: #ccc;
+//   -webkit-transition: 0.4s;
+//   transition: 0.4s;
+// }
+
+// .slider:before {
+//   position: absolute;
+//   content: "";
+//   height: 35px;
+//   width: 35px;
+//   left: 0px;
+//   bottom: 4px;
+//   top: 0;
+//   bottom: 0;
+//   margin: auto 0;
+//   -webkit-transition: 0.4s;
+//   transition: 0.4s;
+//   box-shadow: 0 0px 15px #2020203d;
+//   background: rgb(50, 50, 50) url('https://i.ibb.co/FxzBYR9/night.png');
+//   background-repeat: no-repeat;
+//   background-position: center;
+// }
+// input:checked + .slider {
+//   background-color: #2196f3;
+// }
+
+// input:focus + .slider {
+//   box-shadow: 0 0 1px #2196f3;
+// }
+
+// input:checked + .slider:before {
+//   -webkit-transform: translateX(24px);
+//   -ms-transform: translateX(24px);
+//   transform: translateX(24px);
+//   background: white url('https://i.ibb.co/7JfqXxB/sunny.png');
+//   background-repeat: no-repeat;
+//   background-position: center;
+// }
+
+// /* Rounded sliders */
+// .slider.round {
+//   border-radius: 34px;
+//  }
+
+// .slider.round:before {
+//   border-radius: 50%;
+// } 
+
+.current {
+  color: green;
 }
-[data-theme="dark"] {
-  --primary-color: #9A97F3;
-  --secondary-color: #818cab;
-  --font-color: #e1e1ff;
-  --bg-color: #161625;
-  --heading-color: #818cab;
+
+
+
+
+
+
+
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+	.dropdown-menu li{
+		position: relative;
+	}
+	.dropdown-menu .submenu{ 
+		display: none;
+		position: absolute;
+		left:100%; 
+    top:0px;
+	}
+	.dropdown-menu .submenu-left{ 
+		right:100%; left:auto;
+	}
+
+// @media all and (min-width: 992px) {
+// 	.dropdown-menu li{ position: relative;
+//   }
+//   .dropdown-menu1 {
+//     position: relative;
+//     right:100%;
+//     top:-2.5rem;
+//   }
+// 	.nav-item .submenu{ 
+// 		display: none;
+// 		position: absolute;
+// 		right:100%; top:35px;
+// 	}
+// 	.nav-item .submenu-left{ 
+// 		right:100%; left:0%;
+// 	}
+
+
+
+.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+.dropdown-menu > li:hover > .submenu{
+  display: block;
 }
-body {
-  background-color: var(--bg-color);
-  color: var(--font-color);
+}	
+/* ============ desktop view .end// ============ */
 
-  /*other styles*/
-}
+/* ============ small devices ============ */
+@media (max-width: 991px) {
 
-h1 {
-  color: var(--secondary-color);
-
-  /*other styles*/
-}
-
-a {
-  color: var(--primary-color);
-
-  /*other styles*/
-}
-/*Simple css to style it like a toggle switch*/
-.theme-switch-wrapper {
-  display: flex;
-  align-items: center;
-  padding-top: 10px;
-  padding-left: 100px;
-
-  em {
-    margin-left: 10px;
-    font-size: 1rem;
+  .dropdown-menu .dropdown-menu{
+      margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
   }
-}
-.theme-switch {
-  display: inline-block;
-  height: 25.5px;
-  position: relative;
-  width: 45px;
-}
+  
+  }	
+/* ============ small devices .end// ============ */
 
-.theme-switch input {
-  display:none;
-}
-/* The switch - the box around the slider */
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-}
+/* ============ desktop view ============ */
 
-/* Hide default HTML checkbox */
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
 
-/* The slider */
- .slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
 
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 35px;
-  width: 35px;
-  left: 0px;
-  bottom: 4px;
-  top: 0;
-  bottom: 0;
-  margin: auto 0;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  box-shadow: 0 0px 15px #2020203d;
-  background: rgb(50, 50, 50) url('https://i.ibb.co/FxzBYR9/night.png');
-  background-repeat: no-repeat;
-  background-position: center;
-}
-input:checked + .slider {
-  background-color: #2196f3;
-}
+/* ============ desktop view .end// ============ */
 
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
-}
 
-input:checked + .slider:before {
-  -webkit-transform: translateX(24px);
-  -ms-transform: translateX(24px);
-  transform: translateX(24px);
-  background: white url('https://i.ibb.co/7JfqXxB/sunny.png');
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
- }
 
-.slider.round:before {
-  border-radius: 50%;
-} 
+
+
+
+
+
+
+
+
+
 
 
 

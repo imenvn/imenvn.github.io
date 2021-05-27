@@ -1,4 +1,3 @@
-# Welcome to Beautiful Jekyll!
 # This config file is meant for settings that affect your entire website. When you first
 # set up your website you should go through all these settings and edit them, but after
 # the initial set up you won't need to come back to this file often.
@@ -10,33 +9,12 @@ title: Nvn.
 
 # Your name to show in the footer
 author: Naveen Jhajhoriya
+baseurl: ""
 
 # theme: beautiful-jekyll-theme
-# remote_theme: daattali/beautiful-jekyll@5.0.0
+# remote_theme: da  /beautiful-jekyll@5.0.0
 
-# --- List of links in the navigation bar --- #
 
-# navbar-links:
-#   About Me: "aboutme"
-#   # Resources:
-#   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
-#   #   - Learn markdown: "https://www.markdowntutorial.com/"
-#   # Author's home: "https://deanattali.com"
-#   Chemical Compounds: "chemistry"
-#   Alchemy: "alchemy"
-
-# --- Logo --- #
-
-# Image to show in the navigation bar - works best with a square image
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
-
-# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: true
-
-# If you want to have an image logo in the top-left corner instead of having the title of the website,
-# then specify the following parameter
-# title-img: assets/img/logo.png
 
 #  ---------- Collections  ---------- #
 collections:
@@ -56,51 +34,7 @@ collections:
     output: true
 
 
-# --- Footer social media links --- #
 
-# Select the social network links that you want to show in the footer.
-# Uncomment the links you want to show and add your information to each one.
-social-network-links:
-  email: "public.naveenjhajhoriya@gmail.com"
-  # facebook: deanattali
-  github: imenvn
-  twitter: nvnjhajhoriya
-  # patreon: DeanAttali
-  # youtube: c/daattali
-#  medium: yourname
-#  reddit: yourname
-#  linkedin: daattali
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-  instagram: imenvn
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-#  telegram: yourname
-#  calendly: yourname
-#  mastodon: instance.url/@username
-#  ORCID: your ORCID ID
-#  google-scholar: your google scholar
-
-# If you want to show a link to an RSS in the footer, add the site description here.
-# If you don't want to show an RSS link, remove the following line.
-# rss-description: This website is a virtual proof that I'm awesome
-
-# --- General options --- #
-
-# Select which social network share links to show in posts
-share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
-  vk: false
-
-# How to display the link to your website in the footer
-# Remove this if you don't want a link in the footer
-# url-pretty: "MyWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -114,30 +48,7 @@ feed_show_tags: true
 # The keywords to associate with your website, for SEO purposes
 # keywords: "chemistry,molecules,students,teachers"
 
-# --- Colours / background image --- #
 
-# Personalize the colours in your website. Colour values can be any valid CSS colour
-
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-
-# Alternatively, the navbar, footer, and page background can be set to an image
-# instead of colour
-
-#navbar-img: "/assets/img/bgimage.png"
-#footer-img: "/assets/img/bgimage.png"
-#page-img: "/assets/img/bgimage.png"
-
-# Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
-#mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
 site-css:
@@ -182,7 +93,7 @@ site-css:
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
 # See more details about the parameters below at https://utteranc.es/
 #utterances:
-#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#  repository: # GitHub username/repository eg. "da  /beautiful-jekyll"
 #  issue-term: title   # Mapping between blog posts and GitHub issues
 #  theme: github-light # Utterances theme
 #  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
@@ -191,10 +102,9 @@ site-css:
 # section commented if you aren't using reCaptcha for spam protection. 
 # Using Staticman requires advanced knowledge, please consult 
 # https://github.com/eduardoboucas/staticman/ and https://staticman.net/ for further 
-# instructions. For any support with staticman please direct questions to staticman and 
-# not to BeautifulJekyll.
+# instructions. For any support with staticman please direct questions to staticman.
 #staticman:
-#  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#  repository : # GitHub username/repository eg. "da  /beautiful-jekyll"
 #  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
 #  endpoint   : # URL of your deployment, with a trailing slash eg. "https://<your-api>/v3/entry/github/"
 #  reCaptcha:   # (optional, set these parameters in `staticman.yml` as well) 
@@ -263,5 +173,87 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
+  # --- Logo --- #
+
+# Image to show in the navigation bar - works best with a square image
+# Remove this parameter if you don't want an image in the navbar
+avatar: "/assets/img/avatar-icon.png"
+
+# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
+round-avatar: true
+# If you want to have an image logo in the top-left corner instead of having the title of the website,
+# then specify the following parameter
+title-img: assets/img/logo1.png
+
+
+# --- Colours / background image --- #
+
+# Personalize the colours in your website. Colour values can be any valid CSS colour
+
+navbar-col: #eaeaea
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+
+# Alternatively, the navbar, footer, and page background can be set to an image
+# instead of colour
+
+#navbar-img: "/assets/img/bgimage.png"
+#footer-img: "/assets/img/bgimage.png"
+#page-img: "/assets/img/bgimage.png"
+
+# Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
+#mobile-theme-col: "#0085A1"
+
+
+# --- Footer social media links --- #
+
+# Select the social network links that you want to show in the footer.
+# Uncomment the links you want to show and add your information to each one.
+social-network-links:
+  email: "public.naveenjhajhoriya@gmail.com"
+  # facebook:  
+  github: imenvn
+  twitter: nvnjhajhoriya
+  # patreon:  
+  # youtube: c/da  
+#  medium: yourname
+#  reddit: yourname
+#  linkedin: da  
+#  xing: yourname
+#  stackoverflow: "3943160/da  "
+#  snapchat: deanat78
+  instagram: imenvn
+#  spotify: yourname
+#  telephone: +14159998888
+#  steam: deanat78
+#  twitch: yourname
+#  yelp: yourname
+#  telegram: yourname
+#  calendly: yourname
+#  mastodon: instance.url/@username
+#  ORCID: your ORCID ID
+#  google-scholar: your google scholar
+
+# If you want to show a link to an RSS in the footer, add the site description here.
+# If you don't want to show an RSS link, remove the following line.
+# rss-description: This website is a virtual proof that I'm awesome
+
+# --- General options --- #
+
+# Select which social network share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  linkedin: true
+  vk: false
+
+# How to display the link to your website in the footer
+# Remove this if you don't want a link in the footer
+# url-pretty: "MyWebsite.com"
