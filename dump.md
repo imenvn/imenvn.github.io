@@ -32,3 +32,30 @@ title: dumpcode
 
 <!— Windows 8.1 + IE11 and above —>
 <meta name="msapplication-config" content="assets\img\favicon\browserconfig.xml" />
+
+
+##### font family css rules:
+font-family: 'Lato', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+
+
+# --- Colours / background image --- #
+
+# Personalize the colours in your website. Colour values can be any valid CSS colour
+
+navbar-col: #aaaaaa
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#aaaaaa"
+footer-text-col: "#777777"
+footer-link-col: "#404040"

@@ -180,11 +180,16 @@ toggleSwitch.addEventListener('change', switchTheme, false);
 function switchTheme(e) {
   if (e.target.checked) {
       document.body.setAttribute('class', 'page-dark-mode');
-      localStorage.setItem('theme', 'page-dark-mode'); //add this
+      localStorage.setItem('theme', 'page-dark-mode');
+      document.querySelector('.navbar').classList.remove('navbar-light');
+      document.querySelector('.navbar').classList.add('navbar-dark');
+      //add this
   }
   else {
       document.body.setAttribute('class', '');
-      localStorage.setItem('theme', ''); //add this
+      localStorage.setItem('theme', '');
+      document.querySelector('.navbar').classList.remove('navbar-dark');
+      document.querySelector('.navbar').classList.add('navbar-light');
   }    
 }
 const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;

@@ -51,7 +51,7 @@
     display: none;
   }
   .page-dark-mode #change-skin {
-    background: #242526;
+    background: #212121;
     border-color: #444;
   }
   .page-dark-mode #change-skin .dark-mode {
@@ -66,7 +66,7 @@
   
   .page-dark-mode {
     color: #e4e6eb;
-    background-color: #18191a;
+    background-color: #121212;
   }
   .page-dark-mode a {
     color: #139ee0;
@@ -100,15 +100,15 @@
     background: transparent;
   }
   .page-dark-mode .navbar-custom {
-    background-color: #242526;
-    border-bottom-color: #393a3b;
+    background-color: #212121;
+    box-shadow: 0px 0.2rem #454545;
   }
   .page-dark-mode .navbar-custom .navbar-brand,
   .page-dark-mode .navbar-custom .navbar-nav .nav-link {
     color: #e4e6eb;
   }
   .page-dark-mode .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
-    background-color: #242526;
+    background-color: #212121;
     color: #e4e6eb;
   }
   @media (min-width: 1200px) {
@@ -131,7 +131,7 @@
   }
   .page-dark-mode footer {
    border-top-color: #242526;
-   background-color: #242526;
+   background-color: #212121;
   }
   .page-dark-mode footer p.text-muted {
     color: #aaaaaa !important;
@@ -193,7 +193,7 @@
     box-shadow: 0 0 0.3125rem #888;
   }
   .page-dark-mode .pagination .page-item .page-link {
-    background-color: #18191a;
+    background-color: #121212;
     color: #e4e6eb;
   }
   .page-dark-mode .pagination .page-item .page-link:hover,
@@ -204,7 +204,7 @@
   }
   .page-dark-mode table tr {
     border-top: 1px solid #666;
-    background-color: #18191a;
+    background-color: #121212;
   }
   .page-dark-mode table tr:nth-child(2n) {
     background-color: #28292a;
@@ -258,5 +258,5 @@
     border-left-color: #444;
   }
   .page-dark-mode .jumbotron {
-    background: #242526;
+    background: #212121;
   }

@@ -1,5 +1,9 @@
 <nav
   class="navbar navbar-expand-md navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
   {%- if site.title-img -%}
   <a class="navbar-brand navbar-brand-logo" href="{{ '' | absolute_url }}"><img alt="{{ site.title }} Logo"
       src="{{ site.title-img | relative_url }}" /></a>
@@ -13,11 +17,6 @@
     </label>
     <em>Enable Dark Mode!</em>
   </div> -->
-
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-    aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
   <div class="collapse navbar-collapse" id="main_nav">
     <ul class="navbar-nav ms-auto navbar-nav-custom">
       {% for nav in site.data.nav %}

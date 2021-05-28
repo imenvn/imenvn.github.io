@@ -1,3 +1,5 @@
+@import 'variables';
+
 // :root {
 //   --primary-color: #302AE6;
 //   --secondary-color: #536390;
@@ -123,9 +125,7 @@
 //   border-radius: 50%;
 // } 
 
-.current {
-  color: green;
-}
+
 
 
 
@@ -285,6 +285,16 @@
 					}
 
                     // Import partials.
+
+
+.navbar-light .navbar-toggler {
+  margin-left: 1rem;
+  border: 0.1125rem solid rgba(0,0,0,0.5);
+}
+.navbar-dark .navbar-toggler {
+  margin-left: 1rem;
+  border: 0.1125rem solid rgba(255, 255, 255, 0.5);
+}
 @import
-  "custom/home"
+  "home"
 ;
